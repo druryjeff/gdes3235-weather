@@ -1,0 +1,16 @@
+.weather-info {
+	@extend .fixpos;
+	z-index: -1;
+	p {
+		font-family: $font-mono;
+		font-weight: 700;
+		line-height: 1;
+		color: #e5e5e5;
+		opacity: .5;
+		font-size: 20rem;
+		text-align: right;
+		line-height: 1;
+		position: relative;
+		transform: translateY(-2rem);
+	}
+}

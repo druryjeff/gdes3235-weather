@@ -1,0 +1,12 @@
+* {
+	box-sizing: border-box !important;
+	margin: 0 !important;
+}
+
+body {
+	font-family: $font-sans;
+	height: 100vh;
+	overflow: hidden;
+	background: url(../img/bg-rain.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}

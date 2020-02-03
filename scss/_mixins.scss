@@ -1,0 +1,5 @@
+@mixin makeGrid($c,$r){
+	display: grid;
+	grid-template-columns: repeat($c,1fr);
+	grid-template-rows: repeat($r,1fr);
+}
